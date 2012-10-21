@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:weightSum="1"
+    style="@style/lightBackGroundStyle">
+
+    <LinearLayout
+        android:id="@+id/llPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/headerTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter PIN:" />
+
+        <EditText
+            android:id="@+id/etPin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.47" >
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTweetMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+	<EditText
+	    android:id="@+id/etTweetMessage"
+	    android:layout_width="match_parent"
+	    android:layout_height="255dp"
+	    android:inputType="textMultiLine" />
+
+    </LinearLayout>
+
+	<LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnTweet"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tweet" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clear" />
+    </LinearLayout>
+	
+    <LinearLayout
+        android:id="@+id/linearLayoutAdMob"
+        android:layout_width="match_parent"
+        android:layout_height="49dp" >
+    </LinearLayout>
+    
+</LinearLayout>

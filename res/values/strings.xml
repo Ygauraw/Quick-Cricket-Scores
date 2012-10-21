@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, QuickCrickScoreActivity!</string>
+    <string name="app_name">Quick Crick Score</string>
+    
+    <!--Strings for main file -->
+    <string name="headerScore">SCORES</string>
+	<string name="headerNews">NEWS</string>
+	<string name="btnRefresh">Refresh</string>
+	<string name="btnRecent">Recent</string>
+	<string name="btnUpcoming">Upcoming</string>
+	
+	<!--Strings for ScoreBoard file -->
+	<string name="btnFullScore">Full Score</string>
+	<string name="btnDesktopScore">Desktop Score</string>
+	<string name="btnShareScore">Share Score</string>
+	
+	<!--Strings for Send SMS file -->
+	<string name="btnSendSMS">Send</string>
+	<string name="btnClear">Clear</string>
+	<string name="tvSelectContact">Select Contacts :</string>
+	
+	<!--Strings for Tweet Score file -->
+	<string name="btnTweet">Tweet</string>
+	<string name="tvPin">Enter PIN:</string>
+
+	
+	
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/lightBackGroundStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:id="@+id/llProgressBar"
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+		<AutoCompleteTextView
+            android:id="@+id/actvContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contacts" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:visibility="gone">
+        	<TextView
+            android:id="@+id/tvTos"
+            style="@style/lightBackGroundStyle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+		
+        </LinearLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+		
+		<TextView
+		    android:id="@+id/tvToNames"
+		    style="@style/lightBackGroundStyle"
+		    android:layout_width="match_parent"
+		    android:layout_height="325dp"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/etMessageBody"
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            android:inputType="textMultiLine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Send" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clear" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutAdMob"
+        android:layout_width="match_parent"
+        android:layout_height="49dp" >
+    </LinearLayout>
+
+</LinearLayout>

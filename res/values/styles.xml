@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <style name="headerTextStyle" parent="android:Widget.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+    	<item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+	<style name="lightBackGroundStyle" parent="android:style/Theme">
+	  	<item name="android:background">@android:color/background_light</item>
+		<item name="android:textColor">@android:color/black</item>
+	</style>    
+	<style name="buttonStyle" parent="android:Widget.Button">
+		<item name="android:background">@drawable/blue</item>
+		<item name="android:textColor">@android:color/background_light</item>
+	</style>
+	
+	<style name="CustomTheme" parent="@android:style/Theme">
+    	<item name="android:tabWidgetStyle">@style/CustomTabWidget</item>
+	</style>
+	<style name="CustomTabWidget" parent="@android:style/Widget.TabWidget">
+    	<item name="android:textAppearance">@style/CustomTabWidgetText</item>
+	</style>
+	<style name="CustomTabWidgetText" 
+    	parent="@android:style/TextAppearance.Widget.TabWidget">
+   	 	<item name="android:textSize">20sp</item>
+    	<item name="android:textStyle">bold</item>
+	</style>
+	
+</resources>

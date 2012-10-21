@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/lightBackGroundStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:id="@+id/llProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:id="@+id/pbApp_ref"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/myprogressbar" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/llWebView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05" >
+		
+		<WebView
+		    android:id="@+id/myWebView"
+		    android:layout_width="match_parent"
+		    android:layout_height="329dp" />
+
+    </LinearLayout>
+    	<LinearLayout
+			    android:id="@+id/llBottom"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal"
+			    android:weightSum="1" >
+        		
+        		<Button
+        		    android:id="@+id/btnFullScore"
+        		    android:layout_width="wrap_content"
+        		    android:layout_height="wrap_content"
+        		    android:text="@string/btnFullScore" >
+
+        			</Button>
+        					<Button
+        		    android:id="@+id/btnDesktopScore"
+        		    android:layout_width="wrap_content"
+        		    android:layout_height="wrap_content"
+        		    android:layout_weight="1.20"
+        		    android:text="@string/btnDesktopScore" >
+
+        			</Button>
+        						<Button
+        		    android:id="@+id/btnShareScore"
+        		    android:layout_width="wrap_content"
+        		    android:layout_height="wrap_content"
+        		    android:text="@string/btnShareScore" >
+
+            		</Button>
+        	
+        		</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/linearLayoutAdMob"
+	    android:layout_width="match_parent"
+	    android:layout_height="379dp" >
+
+			</LinearLayout>
+        	
+    
+</LinearLayout>

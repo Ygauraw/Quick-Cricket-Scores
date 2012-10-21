@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:weightSum="1" style="@style/lightBackGroundStyle">
+
+   
+    
+    <LinearLayout
+        android:id="@+id/llProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include
+            android:id="@+id/pbApp_ref"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/myprogressbar" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/llListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    	
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="631dp" >
+
+    </ListView>
+    
+    </LinearLayout>
+    
+   	<LinearLayout
+   	    xmlns:android="http://schemas.android.com/apk/res/android"
+   	    xmlns:myapp="http://schemas.android.com/apk/lib/com.google.ads"
+   	    android:id="@+id/linearLayoutAdMob"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="59dp" >
+    
+    </LinearLayout>
+
+    
+    
+</LinearLayout>
